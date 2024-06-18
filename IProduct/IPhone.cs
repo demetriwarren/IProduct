@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IProduct
+{
+    internal class IPhone :IProduct
+    {
+        public string ProductName { get; set; } = string.Empty;
+        public string Color { get; set; } = string.Empty;
+        public decimal Price { get; set; } = 0m;
+        public string Memory { get; set; } = String.Empty;
+
+        
+    }
+}
